@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class ValidateStackSequence {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> st = new Stack<>();
