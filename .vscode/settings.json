@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Stack\\9.MinimumAddToMakeParenthesesValid_LC921",
-        "Stack\\8.ValidateStackSequences_LC946"
+        "Stack\\8.ValidateStackSequences_LC946",
+        "Stack\\11.ReverseSubstringsBetweenEachPairOfParentheses_LC1190"
     ]
 }
