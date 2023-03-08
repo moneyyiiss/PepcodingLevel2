@@ -11,7 +11,7 @@ public class Solution {
         if(n == 1){
             return 1;
         }
-        int fnm1 = factorial(n);
+        int fnm1 = factorial(n-1);
         int fn = n*fnm1;
         return fn;
     }

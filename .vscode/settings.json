@@ -4,6 +4,7 @@
         "Stack/8.ValidateStackSequences_LC946",
         "Stack/11.ReverseSubstringsBetweenEachPairOfParentheses_LC1190",
         "Recursion_Backtracking/2.NQueensProblemUsingBacktracking",
-        "Recursion/2.PowerUsingRecursion"
+        "Recursion/2.PowerUsingRecursion",
+        "Recursion/1.Factorial"
     ]
 }
