@@ -10,6 +10,7 @@
         "Recursion/3.TowerOfHanoi",
         "Recursion/2.PowerUsingRecursion",
         "Recursion/1.Factorial",
-        "BinaryTreeL1/Constructor"
+        "BinaryTreeL1/Constructor",
+        "BinaryTreeL1/Display"
     ]
 }
