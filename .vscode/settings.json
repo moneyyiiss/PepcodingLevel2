@@ -10,7 +10,9 @@
         "Recursion/3.TowerOfHanoi",
         "Recursion/2.PowerUsingRecursion",
         "Recursion/1.Factorial",
-        "BinaryTreeL1/Constructor",
-        "BinaryTreeL1/Display"
+        "BinaryTreeL1/SizeSumMax",
+        "BinaryTreeL1/6.NodeToRootPath",
+        "BinaryTreeL1/5.IterativePrePostInOrderTraversal",
+        "BinaryTreeL1/10.TransformToLeft-clonedTree"
     ]
 }
