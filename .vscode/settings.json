@@ -10,9 +10,15 @@
         "Recursion/3.TowerOfHanoi",
         "Recursion/2.PowerUsingRecursion",
         "Recursion/1.Factorial",
+        "LinkListL1/_3RemoveFirstInLinkedList",
+        "LinkListL1/_2DisplayALinkedList",
+        "LinkListL1/_1AddLastInLinkedList",
         "BinaryTreeL1/SizeSumMax",
         "BinaryTreeL1/6.NodeToRootPath",
         "BinaryTreeL1/5.IterativePrePostInOrderTraversal",
-        "BinaryTreeL1/10.TransformToLeft-clonedTree"
-    ]
+        "BinaryTreeL1/10.TransformToLeft-clonedTree",
+        "LinkListL1/1.AddLastInLinkedList",
+        "."
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
