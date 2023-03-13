@@ -79,25 +79,18 @@ public class Main {
     display(node.right);
   }
 
-  public static void levelOrder(Node node) {
+  public static Node removeLeaves(Node node){
     // write your code here
-    //rpa - > remove print add in queue
-    Queue<Node> mq = new ArrayDeque<>();
-    mq.add(node);
-    while(mq.size() > 0){
-        int count = mq.size();
-        for(int i=0; i<count; i++){
-            node = mq.remove(); // remove
-            System.out.print(node.data + " "); // print
-            if(node.left != null){
-                mq.add(node.left);
-            }
-            if(node.right != null){
-                mq.add(node.right);
-            }
-        }
-        System.out.println();
+    if(node == null){
+        return null;
     }
+    if(node.left == null && node.right == null){
+        return null;
+    }
+    node.left = removeLeaves(node.left);
+    node.right = removeLeaves(node.right);
+
+    return node;
   }
 
   public static void main(String[] args) throws Exception {
@@ -114,7 +107,8 @@ public class Main {
     }
 
     Node root = construct(arr);
-    levelOrder(root);
+    root = removeLeaves(root);
+    display(root);
   }
 
 }

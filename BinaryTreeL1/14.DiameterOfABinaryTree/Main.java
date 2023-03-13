@@ -79,25 +79,20 @@ public class Main {
     display(node.right);
   }
 
-  public static void levelOrder(Node node) {
-    // write your code here
-    //rpa - > remove print add in queue
-    Queue<Node> mq = new ArrayDeque<>();
-    mq.add(node);
-    while(mq.size() > 0){
-        int count = mq.size();
-        for(int i=0; i<count; i++){
-            node = mq.remove(); // remove
-            System.out.print(node.data + " "); // print
-            if(node.left != null){
-                mq.add(node.left);
-            }
-            if(node.right != null){
-                mq.add(node.right);
-            }
-        }
-        System.out.println();
+  public static int height(Node node) {
+    if (node == null) {
+      return -1;
     }
+
+    int lh = height(node.left);
+    int rh = height(node.right);
+
+    int th = Math.max(lh, rh) + 1;
+    return th;
+  }
+
+  public static int diameter1(Node node) {
+    // write your code here
   }
 
   public static void main(String[] args) throws Exception {
@@ -114,7 +109,10 @@ public class Main {
     }
 
     Node root = construct(arr);
-    levelOrder(root);
+
+    int diameter = 0;
+    diameter = diameter1(root);
+    System.out.println(diameter);
   }
 
 }
